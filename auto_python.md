@@ -22,7 +22,7 @@ sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-gener
 ```
 
 <ol start="3">
-<li>Install [otter-grader](https://otter-grader.readthedocs.io/en/latest/index.html#installation) using pip.</li>
+<li>Install <a href="https://otter-grader.readthedocs.io/en/latest/index.html#installation">otter-grader</a> using pip.</li> 
 </ol> 
 
 ```bash
@@ -30,17 +30,20 @@ pip install otter-grader
 ```
 
 <ol start="4">
-<li>Install [Docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) with the instructions at the link (Steps 1, 2, 3). Docker is required for the local grading of assignments using containerization. </li>
+<li>Install <a href="https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository">Docker</a> with the instructions at the link (Steps 1, 2, 3). Docker is required for the local grading of assignments using containerization. </li>
 </ol> 
-5. Install ipykernel. 
+
+<ol start="5">
+<li>Install ipykernel. </li>
+</ol> 
 
 ```bash
 python3 -m pip install ipykernel
 python3 -m ipykernel install --user
 ```
 
-<ol start="4">
-<li>Otter-grader offers a [tutorial](https://otter-grader.readthedocs.io/en/latest/tutorial.html). To test your installation, you can download the tutorial repository using the commands below. Basic commands to run otter-grade to test the installation are included as well. More information about [formatting your assingments](#creating-and-configuring-assignments) and [deploying the autograder for grading assignments](#deploying-your-autograder) are found below. </li>
+<ol start="6">
+<li>Otter-grader offers a <a href="https://otter-grader.readthedocs.io/en/latest/tutorial.html">tutorial</a>. To test your installation, you can download the tutorial repository using the commands below. Basic commands to run otter-grade to test the installation are included as well. More information about <a href="#creating-and-configuring-assignments">formatting your assingments</a> and <a href="#deploying-your-autograder">Deploying the autograder for grading assignments</a> are found below. </li>
 </ol> 
 
 ```bash
