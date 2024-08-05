@@ -21,13 +21,17 @@ sudo apt-get install pandoc
 sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
 ```
 
-3. Install [otter-grader](https://otter-grader.readthedocs.io/en/latest/index.html#installation) using pip. 
+<ol start="3">
+<li>Install [otter-grader](https://otter-grader.readthedocs.io/en/latest/index.html#installation) using pip.</li>
+</ol> 
 
 ```bash
 pip install otter-grader
 ```
 
-4. Install [Docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) with the instructions at the link (Steps 1, 2, 3). Docker is required for the local grading of assignments using containerization. 
+<ol start="4">
+<li>Install [Docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) with the instructions at the link (Steps 1, 2, 3). Docker is required for the local grading of assignments using containerization. </li>
+</ol> 
 5. Install ipykernel. 
 
 ```bash
@@ -35,7 +39,9 @@ python3 -m pip install ipykernel
 python3 -m ipykernel install --user
 ```
 
-6. Otter-grader offers a [tutorial](https://otter-grader.readthedocs.io/en/latest/tutorial.html). To test your installation, you can download the tutorial repository using the commands below. Basic commands to run otter-grade to test the installation are included as well. More information about [formatting your assingments](#creating-and-configuring-assignments) and [deploying the autograder for grading assignments](#deploying-your-autograder) are found below. 
+<ol start="4">
+<li>Otter-grader offers a [tutorial](https://otter-grader.readthedocs.io/en/latest/tutorial.html). To test your installation, you can download the tutorial repository using the commands below. Basic commands to run otter-grade to test the installation are included as well. More information about [formatting your assingments](#creating-and-configuring-assignments) and [deploying the autograder for grading assignments](#deploying-your-autograder) are found below. </li>
+</ol> 
 
 ```bash
 ## download the tutorial repository
